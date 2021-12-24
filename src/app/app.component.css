@@ -1,0 +1,25 @@
+ img {
+    display: block;
+    max-width:60px;
+    max-height:30px;
+    width: 86px;
+    height: 63px;
+
+  
+}
+#style{
+    display:block
+}
+#style1{
+    display:none
+}
+/*  
+nav .container-fluid{
+    display:flex;
+    flex-direction: row;
+    float:left;
+}
+nav .container-fluid ul{
+    display:flex;
+    float: left;
+}  */

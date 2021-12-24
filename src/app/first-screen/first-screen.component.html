@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE html>
+<html>
+    <body>
+        <form [formGroup]="mygroup" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+            <input type="file" (change)="handleFileInput($event)" [formControl]="file">
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html> -->
+<div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Peoples Bank </h1>
+            <br>
+           <div class="jumbo">
+            <label>Upload your document here</label>
+            <br><br>
+        </div>
+            <form class="form"   [formGroup]="mygroup" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+
+                <input class="primary" type="file"  (change)="handleFileInput($event)" [formControl]="file">
+                <button class="btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="visual">
+            <img src="../assets/ff.png" width="100%">
+        </div>
+
+    </div>
